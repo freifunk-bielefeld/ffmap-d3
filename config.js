@@ -5,7 +5,8 @@ var ffmapConfig = {
   url:       "/",
 
   // visible link in the navigation:
-  sitename:  "luebeck.freifunk.net",
+  community_site : "freifunk.net",
+  community_name : "Freifunk",
 
   // initial gravity, friction, of the graph at pageload:
   gravity:   0.05,
@@ -18,3 +19,6 @@ var ffmapConfig = {
   // path to the nodes.json
   nodes_json: "nodes.json",
 };
+
+document.getElementById("community_site").innerHTML = ffmapConfig.community_site;
+document.title = ffmapConfig.community_name + " -  " + document.title;
