@@ -19,6 +19,3 @@ var ffmapConfig = {
   // path to the nodes.json
   nodes_json: "nodes.json",
 };
-
-document.getElementById("community_site").innerHTML = ffmapConfig.community_site;
-document.title = ffmapConfig.community_name + " -  " + document.title;
