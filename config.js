@@ -5,8 +5,8 @@ var ffmapConfig = {
   url:       "/",
 
   // visible link in the navigation:
-  community_site : "bielefeld.freifunk.net",
-  community_name : "Freifunk Bielefeld",
+  community_site : "gotham.freifunk.net",
+  community_name : "Freifunk Gotham",
 
   // initial gravity, friction, of the graph at pageload:
   gravity:   0.05,
