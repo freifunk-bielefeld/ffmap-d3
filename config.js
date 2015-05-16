@@ -8,6 +8,9 @@ var ffmapConfig = {
   community_site : "gotham.freifunk.net",
   community_name : "Freifunk Gotham",
 
+  // ipv6 prefix for link to router status site
+  prefix6 : "fdef:17a0:ffb1:300::",
+
   // initial gravity, friction, of the graph at pageload:
   gravity:   0.05,
   friction:  0.73,
