@@ -19,6 +19,9 @@ var ffmapConfig = {
   distance:  1.0,
   strength:  1.0,
 
+  // all communities to be listed
+  community_labels : { "gotham" : "Gotham" },
+
   // path to the nodes.json
   nodes_json: "nodes.json",
 };
