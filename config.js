@@ -21,6 +21,7 @@ var ffmapConfig = {
 
   // all communities to be listed
   community_labels : { "gotham" : "Gotham" },
+  show_unlisted_communities : true,
 
   // path to the nodes.json
   nodes_json: "nodes.json",
