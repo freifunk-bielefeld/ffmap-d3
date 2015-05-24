@@ -21,6 +21,7 @@ var ffmapConfig = {
 
   // all communities to be listed
   community_labels : { "gotham" : "Gotham" },
+  community_links: { "gotham" : "http://gotham.freifunk.net" },
   show_unlisted_communities : true,
 
   // path to the nodes.json
