@@ -27,6 +27,9 @@ var ffmapConfig = {
     },
     show_unlisted_communities: true,
 
+    // latest firmware versions
+    recent_firmwares : [ "undefined", "server", "ffbi-0.5.0" ],
+
     // path to the nodes.json
     nodes_json: "nodes.json",
 };
