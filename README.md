@@ -4,18 +4,21 @@ ffmap-d3
 This repository shows the graph of all nodes in the Freifunk network. This is a geographical map based on OpenStreetMap, a graph of the connections and a plain list.
 
 To use this map, edit the config.js as you wish. Now call ```make``` in this directory and copy the www folder somewhere web accessable.
-You also need a nodes.json file in the www folder. This file contains the data to be displayed. You can get some example nodes.json from here:
+The data to be displayed can be found in the www/nodes.json file.
 
+For testing, you can start a local webserver in the www folder:
 ```
-https://vpn6.freifunk-bielefeld.de/nodes.json
+python -m SimpleHTTPServer
 ```
+Go to http://localhost:8000 in your browser to test the map.
 
-nodes.html
+graph.html
 --------
 An interactive NodeGraph programmed in the framework d3.js, that shows all nodes, clients and connections between them in your Freifunk mesh-network.
 
 After applying any changes to the file nodes.js, a reload of the page will update the data.
 
+![Screenshot](graph.png)
 
 geomap.html
 --------
